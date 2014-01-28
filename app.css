@@ -1,0 +1,76 @@
+﻿body {
+    font-family: 'Kite One';
+}
+
+.dark {
+    background-color: #223e7f;
+}
+
+.navbar {
+    background-color: #223e7f;
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+.navbar-nav .active a {
+    background-color: #3b538d;
+}
+
+    .navbar-nav .active a:hover {
+        background-color: #222;
+    }
+
+.navbar-brand,
+.navbar-nav li a,
+.navbar-nav .active a {
+    color: #eee;
+}
+
+    .navbar-brand:hover,
+    .navbar-nav li a:hover {
+        color: #000000;
+    }
+
+    .navbar-nav .active a:hover {
+        color: #000000;
+        background-color: #3b538d;
+    }
+
+.navbar-nav .active,
+.navbar .active {
+    background-color: #3b538d;
+}
+
+.jumbotron {
+    background-color: #3b538d;
+    border-radius: 0px;
+    color: #ddd;
+    font-family: 'Kite One';
+}
+
+    .jumbotron h1 {
+        font-weight:bold;
+        font-family: 'Kite One';
+        letter-spacing: -3px;
+        color: #eee;
+    }
+    
+
+html {
+    background-color: #223e7f;
+    font-family: 'Kite One';
+}
+
+.mini-header {
+    background-color: #3b538d;
+    padding: 8px;
+    margin: 0px;
+    color: #eee;
+    width: 273px;
+    font-family: 'Kite One';
+}
+
+.shadow {
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
+}
