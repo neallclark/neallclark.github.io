@@ -1,0 +1,21 @@
+div.navbar
+	div.container
+		if name == 'NealClark.co.uk'
+			a.navbar-brand.active(href="index.html") NealClark.co.uk
+		else
+			a.navbar-brand(href="index.html") NealClark.co.uk    	
+		
+		ul.nav.navbar-nav
+			if name == 'Turbo Intervals'
+				li.active
+					a(href="turbointervals.html") Turbo Intervals
+			else
+				li 		
+					a(href="turbointervals.html") Turbo Intervals
+			
+			if name == "Experiments"
+				li.active
+					a(href="experiments.html") Experiments
+			else
+				li
+					a(href="experiments.html") Experiments

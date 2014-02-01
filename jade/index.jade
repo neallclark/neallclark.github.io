@@ -1,0 +1,28 @@
+extends master.jade
+
+block vars
+	- name = 'NealClark.co.uk'
+
+include mixins\blocklink.jade
+
+block main
+	div.container(style="display: table")
+		div.col-6
+			h1 HELLO
+			p I'm a Software Developer who does a bit of everything, Web, Server, Mobile.
+			p If you are big on Cycling, check out my Turbo Intervals App
+			p
+				include partials\androidappbutton.jade
+
+		div.col-3
+			img(src="img\\app1.png")
+		div.col-3
+			img(src="img\\app2.png")
+
+block sub
+	div.col-6
+		div.pull-right
+			+blocklink("turbointervals.html", "Turbo Intervals", "img\\app_mini.png")
+	div.col-6
+		div.pull-left
+			+blocklink("experiments.html", "Experiments", "img\\exp1.png")

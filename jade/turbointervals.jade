@@ -1,0 +1,31 @@
+extends master.jade
+
+block vars
+  - name = 'Turbo Intervals'
+
+block main
+  div.container(style="display: table")
+    h1 Turbo Intervals
+    div.col-6
+      p
+      p Making it easy to create your perfect interval session.
+      p This Android App is a highly customisable interval timer and workout guide to use whilst training indoors.
+      ul
+        li Set targets for each interval (Speed, Heart Rate, Power, Cadence, Effort Level).
+        li Easily create repeated blocks</li>
+        li Customisable spoken motivational messages. (You can record your own as well)
+        li Interval names and their duration are spoken during the workout when they become active.
+        li Frequently used intervals can be saved as templates for quick access when creating sessions.
+        li Build your own workout library.
+
+    div.col-6
+      div.row
+        div.col-6
+          img(src="img\\app1.png")
+        div.col-6
+          img(src="img\\app2.png")
+      div.row
+        div.col-4
+        div.col-3
+          include partials\androidappbutton.jade
+        div.col-5

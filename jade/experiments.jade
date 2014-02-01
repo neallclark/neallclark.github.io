@@ -1,0 +1,22 @@
+extends master.jade
+
+block vars
+	- name = 'Experiments'
+
+include mixins\blocklink.jade
+
+block main
+	div.container(style="display: table")
+		h1 Experiments
+		div.col-6
+			p
+			p I created this as an excuse to have a play around with Typescript.
+			p
+				a(href="Experiments\\Particles\\default.htm") Demo
+			p
+				a(href="https://github.com/neallclark/neallclark.github.io/tree/master/Experiments/Particles") Source
+
+		div.col-6
+			div.pull-left
+				+blocklink("Experiments\\Particles\\default.htm", "Particles with Typescript", "img\\exp1.png")
+

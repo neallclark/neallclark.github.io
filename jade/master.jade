@@ -1,0 +1,28 @@
+doctype html
+block vars
+
+html(lang="en")
+  head
+    block head
+      meta(charset="utf-8")
+      title
+        block title
+          = name
+      link(rel="stylesheet" href="bootstrap\\css\\bootstrap.min.css" type="text/css")
+      link(rel="stylesheet" href="app.css" type="text/css")
+      link(href='http://fonts.googleapis.com/css?family=Kite+One' rel='stylesheet' type='text/css')
+      script(src="http://code.jquery.com/jquery.js")
+      script(src="bootstrap\\js\\bootstrap.min.js")
+
+  body.dark
+    include partials\nav.jade
+            
+    div.jumbotron
+      block main
+
+    div.container.dark
+      div.row.dark
+        block sub
+
+
+
